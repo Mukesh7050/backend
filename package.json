@@ -8,9 +8,14 @@
   ],
   "license": "ISC",
   "author": "mukesh kumar",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "build": "tsc"
+  
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
